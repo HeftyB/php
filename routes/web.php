@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use app\Http\Controllers\HeftyBController;
+use App\Http\Controllers\HeftyBController;
 
 /*
 |--------------------------------------------------------------------------
