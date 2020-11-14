@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HeftyBController@index');
+Route::get('/', [HeftyBController::class, 'index']);
 
-Route::get('/contact', 'HeftyBController@contact');
+Route::get('/contact', [HeftyBController::class, 'contact']);

@@ -14,4 +14,3 @@ class HeftyBController extends Controller
         return view('contact');
     }
 }
-?>
