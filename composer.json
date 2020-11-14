@@ -40,7 +40,7 @@
         },
         "autoload": {
             "classmap": [
-                "app/controllers"
+                "app/Http/Controllers"
             ]
         }
     },
