@@ -1,0 +1,67 @@
+* {
+    /* background-color: green; */
+    /* border: 1px solid black; */
+}
+
+/* .hello {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+  }
+  @keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+
+  .wrapper {
+      background-color: #19292D;
+      /* background-image: url("../img/nasa.jpg");
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover; */
+  }
+
+  .me {
+      width: 100%;
+  }
+
+  .inner-wrapper {
+      background-color: #fff;
+  }
+
+  #logo {
+      width: 60px;
+  }
+
+  #head {
+      padding-top: 10%;
+  }
+/* 
+  test {
+    white: #FFFFFF;
+    bgLight: #132634;
+    bg: #19292D;
+    bgDark: #1B242C;
+    grayLight: #F2F2F2;
+    gray: #E0E0E0;
+    grayDark: #BDBDBD;
+    magentaLight: #FF00A8;
+    magenta: -webkit-linear-gradient(90deg, #EC0039 0%, #FF00A8 100%);
+    magentaDark: #EC0039;
+    primaryLight: #BDFF00;
+    primary: -webkit-linear-gradient(90deg, #00FF66 0%, #BDFF00 100%);
+    primaryVert: -webkit-linear-gradient(180deg, #BDFF00 0%, #00FF66 100%);
+    primaryDark: #00FF66;
+    primaryDarker: #10521A;
+    skyLight: #00FFF0;
+    sky: -webkit-linear-gradient(90deg, #006DFF 0%, #00FFF0 100%);
+    skyDark: #006DFF;
+    tangerineLight: #FFF500;
+    tangerine: -webkit-linear-gradient(90deg, #FF7A00 0%, #FFF500 100%);
+    tangerineDark: #FF7A00;
+\ */
