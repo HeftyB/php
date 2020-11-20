@@ -4,7 +4,7 @@
 @section("content")
 <div class="container inner-wrapper">
     <div class="container" id="head">
-        <h1 class="display-3 text-center"> HeftyB <img src="./img/logo.png" alt="logo" id="logo"></h1>
+        <h1 class="display-4 text-center"> HeftyB <img src="./img/logo.png" alt="logo" id="logo"> Web Dev</h1>
     </div>
     <hr>
     <div class="jumbotron">
@@ -13,29 +13,29 @@
                 <img class="rounded-circle img-responsive me" src="https://avatars2.githubusercontent.com/u/35949416?s=460&u=dfa1f58c9cc58038e01ae0401ef14f1c28bbb442&v=4" alt="Andrew Shields">
             </div>
             <div class="container col d-flex align-items-center">
-                <p class="lead" class="align-middle">Welcome to HeftyB's site. blah blah blah here is a whole paragraph of me typing some shiznit out yo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sit nemo unde facere accusamus ex quaerat, error placeat eum iste minus, nesciunt, dolor commodi aperiam! Voluptatum, iure dolorem. Vitae libero, expedita ea deserunt natus quia tempora. Numquam aliquid officiis temporibus nihil, sin</p>
+                <p class="lead" class="align-middle">Welcome, I am Andrew Shields, a Web Devloper / Software Engineer and this is my personal piece of the World Wide Web. I have been fixing electronics and bulding computers for over 15 years and I am blah blah blah here is a whole paragraph of me typing some shiznit out yo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sit nemo unde facere accusamus ex quaerat, error placeat eum iste minus, nesciunt, dolor commodi aperiam! Voluptatum, iure dolorem. Vitae libero, expedita ea deserunt natus quia tempora. Numquam aliquid officiis temporibus nihil, sin</p>
             </div>
         </div>
     </div>
 
     <div class="mid">
         <div class="">
-            <h3 class="text-center">Languages & Frameworks:</h3>
+            <h3 class="text-center dev-title">Development Technologies:</h3>
         </div>
         <div class="tech-stack col">
             <table>
                 <tbody>
                     <tr valign="top">
                         <td width="10%" align="center">
-                            <span>𝗛𝗧𝗠𝗟𝟱</span><br><br>
+                            <span><strong>HTML5</strong></span><br><br>
                             <img height="64px" src="https://cdn.svgporn.com/logos/html-5.svg">
                         </td> 
                         <td width="10%" align="center">
-                            <span>𝗖𝗦𝗦𝟯</span><br><br>
+                            <span><strong>CSS3</strong></span><br><br>
                             <img height="64px" src="https://cdn.svgporn.com/logos/css-3.svg">
                         </td>
                         <td width="10%" align="center">
-                            <span>𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁</span><br><br>
+                            <span><strong>JavaScript</strong></span><br><br>
                             <img height="64px" src="https://cdn.svgporn.com/logos/javascript.svg">
                         </td>
                         <td width="10%" align="center">
@@ -66,7 +66,7 @@
                     </tr>    
                     <tr valign="top">
                         <td width="10%" align="center">
-                            <span>MongoDB</span><br><br>
+                            <span><strong>MongoDB</strong></span><br><br>
                             <img height="20px" src="https://cdn.svgporn.com/logos/mongodb.svg">
                         </td>
                         <td width="10%" align="center">
@@ -74,11 +74,11 @@
                             <img height="64px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png">
                         </td>
                         <td width="10%" align="center">
-                            <span>Flask</span><br><br>
+                            <span><strong>Flask</strong></span><br><br>
                             <img height="64px" src="https://cdn.svgporn.com/logos/flask.svg">
                         </td> 
                         <td width="10%" align="center">
-                            <span>Bootstrap</span><br><br>
+                            <span><strong>Bootstrap</strong></span><br><br>
                             <img height="64px" src="https://cdn.svgporn.com/logos/bootstrap.svg">
                         </td>
                         <td width="10%" align="center">
@@ -113,10 +113,10 @@
         <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small>3 days ago</small>
+                    <h5 class="mb-1">Lamp Stack (this website)</h5>
+                    <small>always a work in progress</small>
                 </div>
-                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <p class="mb-1">This website is a part of a LAMP stack (Linux, Apache, MySQL, PHP), with the Laravel framework. I origi</p>
                 <small>Donec id elit non mi porta.</small>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
