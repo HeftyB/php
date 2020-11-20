@@ -39,7 +39,11 @@
   }
 
   #head {
-      padding-top: 10%;
+      padding-top: 60px;
+  }
+  
+  .dev-title {
+      border: 0.5px double black;
   }
 /* 
   test {
