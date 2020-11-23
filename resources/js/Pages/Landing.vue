@@ -14,7 +14,6 @@
             </div>
         </div> -->
 
-        <div class="container inner-wrapper">
     <div class="container" id="head">
         <h1 class="display-4 text-center"> HeftyB <img src="./img/logo.png" alt="logo" id="logo"> Web Dev</h1>
     </div>
