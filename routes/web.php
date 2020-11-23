@@ -32,3 +32,7 @@ Route::get('/login', [LoginRegisterController::class, 'login'])
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
+
+Route::get('/landing', function () {
+    return Inertia\Inertia::render('Dashboard');
+})->name('dashboard');
