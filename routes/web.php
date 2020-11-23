@@ -33,6 +33,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
 
-Route::get('/landing', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/landing', function () {
     return Inertia\Inertia::render('Landing');
 })->name('landing');
