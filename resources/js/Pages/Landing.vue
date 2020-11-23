@@ -24,7 +24,7 @@
                 <img class="rounded-circle img-responsive me" src="https://avatars2.githubusercontent.com/u/35949416?s=460&u=dfa1f58c9cc58038e01ae0401ef14f1c28bbb442&v=4" alt="Andrew Shields">
             </div>
             <div class="container col d-flex align-items-center">
-                <p class="lead" class="align-middle">Welcome, I am Andrew Shields, a Web Devloper / Software Engineer and this is my personal piece of the World Wide Web. I have been fixing electronics and bulding computers for over 15 years and I am blah blah blah here is a whole paragraph of me typing some shiznit out yo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sit nemo unde facere accusamus ex quaerat, error placeat eum iste minus, nesciunt, dolor commodi aperiam! Voluptatum, iure dolorem. Vitae libero, expedita ea deserunt natus quia tempora. Numquam aliquid officiis temporibus nihil, sin</p>
+                <p class="lead align-middle">Welcome, I am Andrew Shields, a Web Devloper / Software Engineer and this is my personal piece of the World Wide Web. I have been fixing electronics and bulding computers for over 15 years and I am blah blah blah here is a whole paragraph of me typing some shiznit out yo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sit nemo unde facere accusamus ex quaerat, error placeat eum iste minus, nesciunt, dolor commodi aperiam! Voluptatum, iure dolorem. Vitae libero, expedita ea deserunt natus quia tempora. Numquam aliquid officiis temporibus nihil, sin</p>
             </div>
         </div>
     </div>
