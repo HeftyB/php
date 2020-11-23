@@ -15,7 +15,7 @@
         </div> -->
 
     <div class="container" id="head">
-        <h1 class="display-4 text-center"> HeftyB <img src="./img/logo.png" alt="logo" id="logo"> Web Dev</h1>
+        <h1 class="display-4 text-center"> HeftyB <img src="/public/img/logo.png" alt="logo" id="logo"> Web Dev</h1>
     </div>
     <hr>
     <div class="jumbotron">
