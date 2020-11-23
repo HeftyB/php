@@ -13,4 +13,8 @@ class HeftyBController extends Controller
     public function contact() {
         return view("contact");
     }
+
+    public function register() {
+        return view("auth.register");
+    }
 }
