@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HeftyBController;
+use App\Http\Controllers\LoginRegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,16 @@ use App\Http\Controllers\HeftyBController;
 Route::get('/', [HeftyBController::class, 'index']);
 
 Route::get('/contact', [HeftyBController::class, 'contact']);
+
+Route::get('/register', [LoginRegisterController::class, 'register'])
+->name('register');
+
+Route::get('/login', [LoginRegisterController::class, 'login'])
+->name('login');
+
+
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
