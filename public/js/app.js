@@ -2805,10 +2805,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2832,6 +2828,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_DropdownLink__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Jetstream/DropdownLink */ "./resources/js/Jetstream/DropdownLink.vue");
 /* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
 /* harmony import */ var _Jetstream_ResponsiveNavLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Jetstream/ResponsiveNavLink */ "./resources/js/Jetstream/ResponsiveNavLink.vue");
+//
+//
+//
 //
 //
 //
@@ -3440,6 +3439,702 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"],
     Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Landing.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Landing.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/AppLayout */ "./resources/js/Layouts/AppLayout.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+ // import Welcome from "@/Jetstream/Welcome";
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"] // Welcome,
+
   }
 });
 
@@ -46572,29 +47267,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
+    _vm._m(0),
     _vm._v(" "),
     _c(
       "div",
@@ -46627,7 +47300,7 @@ var render = function() {
               ]
             ),
             _vm._v(" "),
-            _vm._m(0)
+            _vm._m(1)
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "ml-12" }, [
@@ -46706,7 +47379,7 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(1)
+              _vm._m(2)
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "ml-12" }, [
@@ -46777,10 +47450,10 @@ var render = function() {
               ]
             ),
             _vm._v(" "),
-            _vm._m(2)
+            _vm._m(3)
           ]),
           _vm._v(" "),
-          _vm._m(3)
+          _vm._m(4)
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
@@ -46818,13 +47491,35 @@ var render = function() {
             )
           ]),
           _vm._v(" "),
-          _vm._m(4)
+          _vm._m(5)
         ])
       ]
     )
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
+      [
+        _c("div", { staticClass: "mt-8 text-2xl" }, [
+          _vm._v(
+            "\n            Welcome to your Jetstream application!\n        "
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mt-6 text-gray-500" }, [
+          _vm._v(
+            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
+          )
+        ])
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -46954,6 +47649,21 @@ var render = function() {
                     [
                       _vm._v(
                         "\n                            Dashboard\n                        "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "jet-nav-link",
+                    {
+                      attrs: {
+                        href: _vm.route("landing"),
+                        active: _vm.route().current("landing")
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                            Landing\n                        "
                       )
                     ]
                   )
@@ -48326,6 +49036,704 @@ var render = function() {
             { staticClass: "bg-white overflow-hidden shadow-xl sm:rounded-lg" },
             [_c("welcome")],
             1
+          )
+        ])
+      ])
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Landing.vue?vue&type=template&id=051daefe&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Landing.vue?vue&type=template&id=051daefe& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "app-layout",
+    {
+      scopedSlots: _vm._u([
+        {
+          key: "header",
+          fn: function() {
+            return [
+              _c(
+                "h2",
+                {
+                  staticClass:
+                    "font-semibold text-xl text-gray-800 leading-tight"
+                },
+                [_vm._v("\n      Landing Page\n    ")]
+              )
+            ]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass:
+                "lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+            },
+            [
+              _c(
+                "h1",
+                {
+                  staticClass:
+                    "title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+                },
+                [
+                  _vm._v("\n        HeftyB "),
+                  _c("br", { staticClass: "hidden lg:inline-block" }),
+                  _vm._v("Web Developer\n      ")
+                ]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "mb-8 leading-relaxed" }, [
+                _vm._v(
+                  "\n        Welcome, I am Andrew Shields, a Web Devloper / Software Engineer and\n        this is my personal piece of the World Wide Web. I have been fixing\n        electronics and bulding computers for over 15 years and I am blah blah\n        blah here is a whole paragraph of me typing some shiznit out yo. Lorem\n        ipsum, dolor sit amet consectetur adipisicing elit. Architecto sit\n        nemo unde facere accusamus ex quaerat, error placeat eum iste minus,\n        nesciunt, dolor commodi aperiam! Voluptatum, iure dolorem. Vitae\n        libero, expedita ea deserunt natus quia tempora. Numquam aliquid\n        officiis temporibus nihil, sin\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "flex justify-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  },
+                  [_vm._v("\n          Button\n        ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg"
+                  },
+                  [_vm._v("\n          Button\n        ")]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "lg:max-w-lg lg:w-full md:w-1/2 w-5/6" }, [
+            _c("img", {
+              staticClass: "object-cover object-center rounded-3xl",
+              attrs: {
+                alt: "hero",
+                src:
+                  "https://avatars2.githubusercontent.com/u/35949416?s=460&u=dfa1f58c9cc58038e01ae0401ef14f1c28bbb442&v=4"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
+      _c("div", { staticClass: "mid" }, [
+        _c("div", { staticClass: "container mx-auto px-4 py-5" }, [
+          _c(
+            "h1",
+            { staticClass: "text-4xl font-bold text-gray-800 mb-5 text-right" },
+            [_vm._v("\n        Development Technologies\n      ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5"
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "rounded-3xl overflow-hidden shadow-lg flex justify-center items-center"
+                },
+                [
+                  _c("img", {
+                    staticClass: "w-3/12 justify-center",
+                    attrs: {
+                      src: "https://cdn.svgporn.com/logos/html-5.svg",
+                      alt: "HTML5"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "px-6 py-4" }, [
+                    _c("div", { staticClass: "font-extrabold text-2xl mb-2" }, [
+                      _vm._v("HTML-5")
+                    ])
+                  ])
+                ]
+              )
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
+      _c("div", { staticClass: "projects" }, [
+        _c("div", { staticClass: "list-group" }, [
+          _c(
+            "a",
+            {
+              staticClass: "list-group-item list-group-item-action",
+              attrs: { href: "#" }
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "d-flex w-100 justify-content-between" },
+                [
+                  _c("h5", { staticClass: "mb-1" }, [
+                    _vm._v("Lamp Stack (this website)")
+                  ]),
+                  _vm._v(" "),
+                  _c("small", [_vm._v("always a work in progress")])
+                ]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "mb-1" }, [
+                _vm._v(
+                  "\n          This website is a part of a LAMP stack (Linux, Apache, MySQL, PHP),\n          with the Laravel framework. I origi\n        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("small", [_vm._v("Donec id elit non mi porta.")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "list-group-item list-group-item-action",
+              attrs: { href: "#" }
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "d-flex w-100 justify-content-between" },
+                [
+                  _c("h5", { staticClass: "mb-1" }, [
+                    _vm._v("List group item heading")
+                  ]),
+                  _vm._v(" "),
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("3 days ago")
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "mb-1" }, [
+                _vm._v(
+                  "\n          Donec id elit non mi porta gravida at eget metus. Maecenas sed diam\n          eget risus varius blandit.\n        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("small", { staticClass: "text-muted" }, [
+                _vm._v("Donec id elit non mi porta.")
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "list-group-item list-group-item-action",
+              attrs: { href: "#" }
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "d-flex w-100 justify-content-between" },
+                [
+                  _c("h5", { staticClass: "mb-1" }, [
+                    _vm._v("List group item heading")
+                  ]),
+                  _vm._v(" "),
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("3 days ago")
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "mb-1" }, [
+                _vm._v(
+                  "\n          Donec id elit non mi porta gravida at eget metus. Maecenas sed diam\n          eget risus varius blandit.\n        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("small", { staticClass: "text-muted" }, [
+                _vm._v("Donec id elit non mi porta.")
+              ])
+            ]
           )
         ])
       ])
@@ -64652,6 +66060,8 @@ var map = {
 	"./API/Index.vue": "./resources/js/Pages/API/Index.vue",
 	"./Dashboard": "./resources/js/Pages/Dashboard.vue",
 	"./Dashboard.vue": "./resources/js/Pages/Dashboard.vue",
+	"./Landing": "./resources/js/Pages/Landing.vue",
+	"./Landing.vue": "./resources/js/Pages/Landing.vue",
 	"./Profile/DeleteUserForm": "./resources/js/Pages/Profile/DeleteUserForm.vue",
 	"./Profile/DeleteUserForm.vue": "./resources/js/Pages/Profile/DeleteUserForm.vue",
 	"./Profile/LogoutOtherBrowserSessionsForm": "./resources/js/Pages/Profile/LogoutOtherBrowserSessionsForm.vue",
@@ -64902,6 +66312,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_097ba13b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_097ba13b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Landing.vue":
+/*!****************************************!*\
+  !*** ./resources/js/Pages/Landing.vue ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Landing_vue_vue_type_template_id_051daefe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Landing.vue?vue&type=template&id=051daefe& */ "./resources/js/Pages/Landing.vue?vue&type=template&id=051daefe&");
+/* harmony import */ var _Landing_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Landing.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Landing.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Landing_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Landing_vue_vue_type_template_id_051daefe___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Landing_vue_vue_type_template_id_051daefe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Pages/Landing.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Landing.vue?vue&type=script&lang=js&":
+/*!*****************************************************************!*\
+  !*** ./resources/js/Pages/Landing.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Landing.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Landing.vue?vue&type=template&id=051daefe&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/Pages/Landing.vue?vue&type=template&id=051daefe& ***!
+  \***********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_051daefe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=template&id=051daefe& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Landing.vue?vue&type=template&id=051daefe&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_051daefe___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_051daefe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -65823,8 +67302,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/heftyb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/heftyb/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /var/www/php/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/php/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
